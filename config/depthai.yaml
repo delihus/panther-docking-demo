@@ -1,0 +1,17 @@
+---
+/oak:
+  ros__parameters:
+    camera:
+      i_nn_type: none
+      i_ip: 10.15.20.189
+      i_calibration_file: /calibration.yaml
+    rgb:
+      i_resolution: '720'
+      i_low_bandwidth: true
+      i_fps: 30.0
+    # left:
+    #   i_low_bandwidth: true
+    # right:
+    #   i_low_bandwidth: true
+    # stereo:
+    #   i_low_bandwidth: true
