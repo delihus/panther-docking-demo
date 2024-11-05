@@ -6,7 +6,7 @@
 
 ```bash
 mkdir -p husarion_ws/src
-git clone https://github.com/husarion/panther_ros.git -b ros2-docking husarion_ws/src
+git clone https://github.com/husarion/panther_ros.git -b ros2-docking-charging-dock-wibotic-msgs husarion_ws/src
 vcs import husarion_ws/src < husarion_ws/src/panther/panther_hardware.repos
 ```
 
